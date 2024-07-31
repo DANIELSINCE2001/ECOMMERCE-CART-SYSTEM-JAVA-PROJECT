@@ -25,22 +25,9 @@ public abstract class Product implements Cloneable {
 	}
 	
 	@Override
-	public Product clone()
+	public Product clone()throws CloneNotSupportedException
 	{
-		try
-		{
-			return (Product)super.clone();
-		}
-		
-		catch(CloneNotSupportedException e)
-		{
-			throw new RuntimeException("Cloning not supported");
-		}
+		return (Product)super.clone();
 	}
-
-	
-	
-	 
-	
 
 }
