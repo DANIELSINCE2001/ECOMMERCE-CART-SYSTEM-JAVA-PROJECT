@@ -25,7 +25,7 @@ public class ECommerceCartSystem
 		cart.displayCartItems();
 		
 		cart.updateProductQuantity("Laptop", 2);
-        cart.displayCartItems();
+        	cart.displayCartItems();
 		
 		cart.applyDiscountToProduct("Laptop",new PercentageDiscountStrategy(10));
 		cart.applyDiscountToProduct("Headphones", new BuyOneGetOneFreeStrategy());
