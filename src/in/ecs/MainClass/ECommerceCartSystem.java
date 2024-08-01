@@ -7,7 +7,7 @@ import in.ecs.DiscountStrategyClasses.*;
 public class ECommerceCartSystem
 {
 
-	public static void main(String[] args)
+	public static void main(String[] args)throws CloneNotSupportedException
 	{
 		Cart cart =new Cart();
 		
