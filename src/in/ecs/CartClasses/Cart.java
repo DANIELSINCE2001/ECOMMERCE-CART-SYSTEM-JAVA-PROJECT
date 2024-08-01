@@ -17,7 +17,7 @@ public class Cart
 		this.items = new ArrayList<>();
 	}
 	
-	public void addProduct(Product product,int quantity)
+	public void addProduct(Product product,int quantity)throws CloneNotSupportedException
 	{
 		for(CartItem item : items)
 		{
