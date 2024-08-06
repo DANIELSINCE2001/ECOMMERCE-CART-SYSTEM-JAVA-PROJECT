@@ -8,3 +8,7 @@ Calculate the total bill.
 Implement Strategy Pattern for handling discounts.
 Implement Prototype Pattern for product cloning.
 Use Object-Oriented Programming (OOP) principles for encapsulation, inheritance, and polymorphism.
+
+
+IDE used: Eclipse
+Java Version : JDK 21.0
